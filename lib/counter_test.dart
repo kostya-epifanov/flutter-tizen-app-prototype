@@ -5,7 +5,7 @@ void main() {
 }
 
 class TizenApp extends StatelessWidget {
-  const TizenApp({Key? key}) : super(key: key);
+  const TizenApp({super.key});
 
   @override
   Widget build(BuildContext context) {
