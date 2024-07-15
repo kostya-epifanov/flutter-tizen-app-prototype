@@ -1,8 +1,8 @@
 name: flutter_tizen_app_prototype
-description: "A new Flutter project."
+description: flutter_tizen_app_prototype
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 0.0.1
 
 environment:
   sdk: '>=3.4.3 <4.0.0'

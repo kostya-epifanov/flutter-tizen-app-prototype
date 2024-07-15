@@ -3,13 +3,15 @@ import 'package:video_player/video_player.dart';
 
 void main() {
   runApp(
-    MaterialApp(
-      home: _App(),
+    const MaterialApp(
+      home: VideoApp(),
     ),
   );
 }
 
-class _App extends StatelessWidget {
+class VideoApp extends StatelessWidget {
+  const VideoApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
